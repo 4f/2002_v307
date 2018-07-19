@@ -1,8 +1,10 @@
-<attach event="onmousedown" onevent="o()" />
-<attach event="onmouseout" onevent="o2()" />
-<attach event="onmouseover" onevent="o2()" />
-<attach event="onclick" onevent="o1()" />
-<script>
+<PUBLIC:COMPONENT>
+
+<PUBLIC:attach event="onmousedown" onevent="o()" />
+<PUBLIC:attach event="onmouseout" onevent="o2()" />
+<PUBLIC:attach event="onmouseover" onevent="o2()" />
+<PUBLIC:attach event="onclick" onevent="o1()" />
+<script LANGUAGE="JScript">
 function o2(){if(fl2&&fl2.element==element)className=className=='i'?'o':'i'
 blur()}
 function o(){if(event.button!=1)return
@@ -16,3 +18,4 @@ if(m<5.5)blur()
 fl2=0
 rv()}
 </script>
+</PUBLIC:COMPONENT>

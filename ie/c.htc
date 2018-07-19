@@ -1,9 +1,9 @@
-<?php header('Content-type: text/x-component'); ?>
+<PUBLIC:COMPONENT>
 
-<attach event="onmouseover" onevent="f1()" />
-<attach event="onclick" onevent="f2()" />
-<attach event="onfocus" onevent="ff()" />
-<script>
+<PUBLIC:attach event="onmouseover" onevent="f1()" />
+<PUBLIC:attach event="onclick" onevent="f2()" />
+<PUBLIC:attach event="onfocus" onevent="ff()" />
+<scripT LANGUAGE="JScript">
 function f1(){if(event.fromElement)m<5.5?focus():setActive()}
 function ff(){if(yl!='')
 {if(element!=yl.element)
@@ -22,3 +22,4 @@ function f2(){if(nl>-1){className='v'
 rv()
 wo(element.href,mt+nl,100,100)}}
 </script>
+</PUBLIC:COMPONENT>
