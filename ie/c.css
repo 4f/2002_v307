@@ -1,0 +1,14 @@
+body{margin:0;background:#d6d6d6 url(../i/5.gif);overflow:hidden;font-family:Times New Roman}
+button{cursor:hand;font:900;background:#004;color:#fff;height:24;width:26;margin:7 5 0 5}
+#tdh{cursor:help;width:600;color:#fff;font:600 13 verdana}
+#tdh td{border-right:1 solid #888;border-bottom:1 solid #888;width:50%;vertical-align:middle;text-align:center;height:18;background:#000}
+.t1{margin:0 3 0;border:0}
+dd,dt{border-color:#000 #ddd #bbb #eee;border-width:0 1 1;border-style:solid;text-indent:5;font-size:12;background:#ddd;padding:0;margin:0;cursor:hand}
+dd{border-color:#000 #333 #333 #bbb;background:#fff}
+.td1{color:rgb(240,0,51);font-size:26;font-weight:900;text-align:center;background:#EFEFEF;border:1 solid;border-color:#fff #000 #000 #fff;filter:Alpha(opacity=100)}
+.t2{text-align:center;background:#c0c0c0;border-right:1 solid #000;border-bottom:1 solid #000;filter:Alpha(opacity=95)}
+a,a:visited{color:00c;text-decoration:none}
+a:hover{text-decoration:underline;color:#66f}
+#ss1 td td td{vertical-align:top;text-align:center;height:15;background:#efefef;font-size:12;padding:0;margin:3 5 3 5;border:1 solid;border-color:#fff #000 #000 #fff;font-weight:400}
+dl{padding:0;margin:0}
+#ss1,#ss{position:absolute;visibility:hidden}

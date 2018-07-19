@@ -1,0 +1,62 @@
+<html><head>
+<title>password</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+m=navigator.appVersion
+i=m.indexOf("MSIE")
+m=parseFloat(m.substr(i+5))
+if(!(i>0&&m>=5))
+location.replace('p1.htm');else{w=window
+p=' abcdefghijklmnopqrstuvwxyzABCDEFGHIJLKMNOPQRSTUVWXYZ0123456789!"#$%&'+"'()*+,-./:;<=>?@[\]^_`{|}~"
+o=' abcdefghijklmnopqrstuvwxyzABCDEFGHIJLKMNOPQRSTUVWXYZ0123456789'
+ol=o.length
+pl=p.length
+function cc(i)
+{if(event.keyCode!=13&&i!=1)
+return true
+s=t.value
+f=new Array()
+n=new Array()
+for(i=1;i<s.length-1;i++)
+f[s.length-i-2]=o.indexOf(s.charAt(i))
+tf=1
+k=0
+while(tf!=0)
+{x=0;tf=0
+for(i=0;i<f.length;i++)
+{x=x*ol+f[i]
+f[i]=(x-x%pl)/pl
+tf+=f[i]+x
+x=x%pl}
+if(tf!=0)
+n[k]=x
+k++}
+d=''
+for(i=0;i<n.length;i++)
+d+=p.charAt(n[n.length-1-i])
+k=d.length
+a=3*k+1
+for(i=0;i<d.length;i++)
+{k+=(i+1)*p.indexOf(d.charAt(i))
+k=k%ol
+a+=(i+1)*(i+1)*p.indexOf(d.charAt(i))}
+a=a%ol
+if(o.charAt(a%ol)!=s.charAt(0)||o.charAt(k%ol)!=s.charAt(s.length-1))
+alert('Error')
+else{w.close()
+w.open(d,'','scrollbars=1,resizable=1')}}}
+</script>
+</head>
+<style>
+.r{border-style:outset}
+button{cursor:hand;font:900;background:#444;color:#f99;width:26;height:24}
+</style>
+<body background=i/br.gif onmouseover="style.borderWidth=2" onmouseout="style.borderWidth=1" onkeydown="event.keyCode==27?t.value==''?w.close():t.value='':event.keyCode==9?'':event.keyCode==13?'':t.focus()" style="cursor:default;overflow:hidden;border:1 outset">
+<table height=100% width=100% style=filter:dropshadow(OffX=2,OffY=2,Color=#33000000)>
+<tr><td vlign=middle align=center>Please enter password:<br>Пожалуйста введите пароль:<br>Будь ласка уведiть пароль:
+<p><input s=s title=Password? id=t onkeypress='cc(0)' onfocus='className="r"' onblur='className=""' onmouseover="focus()" onmouseout="blur()" type=password size=35>
+<p><button accesskey=d title=Delete hidefocus onmouseover="focus();style.color='red'" onmouseout="blur();style.color='#f99'" onclick="t.value=''"><</button>&nbsp
+<button accesskey=c title=Close hidefocus onmouseover="focus();style.color='red'" onmouseout="blur();style.color='#f99'" onclick="w.close()">X</button>&nbsp
+<button accesskey=e title=Enter hidefocus onmouseover="focus();style.color='red'" onmouseout="blur();style.color='#f99'" onclick="cc(1)">></button>
+</td></tr></table>
+</body></html>

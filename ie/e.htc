@@ -1,0 +1,18 @@
+<attach event="onmousedown" onevent="o()" />
+<attach event="onmouseout" onevent="o2()" />
+<attach event="onmouseover" onevent="o2()" />
+<attach event="onclick" onevent="o1()" />
+<script>
+function o2(){if(fl2&&fl2.element==element)className=className=='i'?'o':'i'
+blur()}
+function o(){if(event.button!=1)return
+className=className=='i'?'o':'i'
+fl2=this}
+function o1(){if(pr)pr.className='i'
+pr=this
+i=id.charAt(0)
+if(fl1==i){className='i';sc('r')}else{className='o';sc(i)}
+if(m<5.5)blur()
+fl2=0
+rv()}
+</script>

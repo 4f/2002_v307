@@ -1,0 +1,7 @@
+.h1{position:relative;top:-8}
+img{border:1 solid #ededed}
+a:hover img,a:active img{border:1 solid #000000}
+center a{font-family:verdana;text-decoration:none;font-size:14px;letter-spacing:1}
+a:hover{background:#ffff00}
+a:active{background:#ff9999}
+b{height:10;filter:dropShadow(offX=1,offy=1,color=gray)}

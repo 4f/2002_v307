@@ -1,0 +1,171 @@
+v 1.05
+1.js - chng location for NN
+v.htm - add keyword, rename title, change left position menu (in begin)
+v/map.htm - remove href for area
+index.htm - add keyword, rename title
+iY - add for vino97 jpg & gif
+Y - chng vino97 htm
+redesign p.htm & p1.htm
+
+v 1.06
+1.js - chng fnctn hp
+v.htm - dlt body onhelp, chng div hl, add resize window from WxH of screen, add fnctn onblur for f12, now first page (index.htm for ie5&>) disable in history, redesign menu, fix errs (ua.com against com.ua, by.gif" vs by.gif)
+c.htc - small chng for ie5.0
+a.css - chng all font size & others sizes (pt vs 'none'), chng color shadow (for ie5)
+dlt - 2.gif
+b.css - chng all font size (pt vs 'none')
+index.htm - chng (if ie5&> don't display index)
+p1.htm - chng (for sprt ie4)
+1.js - chng time & speed
+
+v 1.07
+1.js - chng fly menu
+2.js - chng name setInterval; add fnctn keys ctrl+tab, ctrl+shift+tab; fix some bug hot keys
+c.htc - add some navigate
+v.htm - chng div 'hl' for new fnctn keys
+10.jpg - chng (yamaha jog zII)
+65.htm - chng (honda spacy hf03)
+add all need files for browers aren't ie5 or higher - ctlgs ny (0-46.htm+i.htm), nh (0-94.htm+i.htm), ns (0-22.htm+i.htm), (c,a,o,so,x,m.htm,2.gif,b.gif)
+
+v 1.08
+chng - index.htm (open vs replace)
+
+v 1.09
+add some meta tag in index.htm * v.htm
+
+v 1.10
+chng v.htm & 2.js - menu bar don't display until load all dcmnt
+index.htm - remove don't need string
+index.htm & 2.js & 1.js, add support for some browsers (redirect to index.htm or corresponding files)
+p1.htm - chng (name fnctn)
+index.htm - remove some unused cells
+
+v 1.11
+v.htm - add big pctrs insert in frames, some text in help menu (according 2.js), chng coords open map's window, add hidefocus for some anchors, add pre-legend (chng <body> style)
+ax.htm, cc.htm, ob.htm - add files in V for frames
+c.htc&2.js - rdsgn, button pressed earlier, fix scroll for pre-legend
+2.js - ESC may open help menu, SPACE resize menu, fix bug (when press ctrl+tab), add some code for pre-legend (in fnctn ol), chng method readdress for !IE5&>, add some code for flying menu
+a.css - small chng style for A tags (active & hover)
+map2.htm - crct mistake & add better support for !IE5&&>
+a.htm - crct mistake & anchor for map
+index.htm - chng bcground img
+z.htm - some decoration chngs
+pr.htm - add file for preloading
+b.css - add style for <a>
+1.js - chng readdress for !IE5&>, add logo
+index.htm - add logo
+v.htm - add logo & rplc function re to 2.js
+2.js - rearrange some code & function re
+l1.gif, l3.gif - add logo's files
+
+v 1.12
+2.js - increase duration filter for pre-legend
+
+v 1.13
+pr.htm - fix error ('Y' v 'y') & so
+index.htm & p.htm & p1.htm & z.htm & o.htm & a.htm & m.htm & c.htm & so.htm- crrct mistakes & dlt garbage & so
+
+v 2.00
+b.css & c.htc & d.htc & e.htc & index.htm & pr.htm & v.htm & 1.js & ax.htm & cc.htm & ob.htm & map.htm - be cleaned & crrct mistakes
+*.htm in sn, yn, hn - be cleaned & crrct mistakes
+3.js - add new engine for represent specification scooters
+*.htm in Y, S, H - be copied in according directories iY, iS, iH & be chngd correspond with 3.js & crrct mistakes
+(hl.gif, hn.gif), (yl.gif, yn.gif), (sl.gif, sn.gif) - rename according (l.gif, n.gif) & replace according H, Y, S directories
+1.js & S, Y, H - unused
+2.js & index.htm - redsng browser's check
+1.jpg & 3.jpg & 4.jpg in v - optmz
+a.css - chng body marginRight
+
+v 2.01
+3.js - fix big bug
+
+v 3.00
+h1.js + y1.js + s1.js = 5.js - and some cosmetic chng (code)
+v.htm - chng according above, add 'wait' cursor for legend
+2.js - chng something in dbclick, fly of menu, chng time for appear scrollbar, add some code for 5.js && cosmetic chng (code)
+2.js - chng work fnctn sc & kb
+a.css - chng style for menu && optimize
+c.htc, d.htc, e.htc - cosmetic chng
+e.htc, 2.js - rdsng work menu
+c.htc - compact code
+2.js - add new fnctn wo() && crrct link
+c.htc, v.htm - chng according fnctn wo(), chng code fnctn f4(), dlt method focus() in fnctn ff(), 'brk spc' rmv for choice sctrs specificatin
+l3.gif - chng delay 1&last frame
+crt catalog pr
+yn, sn, hn, so.htm - be rplcd in pr & be rnmd accord y, s, h, x.htm
+a.htm, c.htm, m.htm, o.htm, z.htm, b.gif, (x.htm) - be rplcd in pr & according chng link & chng some text & add some <alt> & back()>go(-1)
+crt index.htm in pr
+yl.gif - dlt
+i.htm in s, h, y - be rnmd to index.htm
+ax.htm, ob.htm, cc.htm > x.htm, o.htm, c.htm
+ax.jpg, ob.jpg, cc.jpg > x.jpg, o.jpg, c.jpg & be optimize & chng all valid link
+v.htm - add auxiliary div for focus with overflow, add link to my e-mail, chng hlp window, some cosmetic chng
+2.js - add zm() for resize hlp, add b2() for chng overflow&padding, rnm mr()>wr(), chng hp()&wr(), chng resizing&moving window for screens>800x600
+p.htm - add dynamic efect
+index.htm (in root) - remove code for IE4
+v.htm & a.htm - crrct mistakes
+2.js - add b1() for crrct positioning hlp, add d1() (menu go to cursor) and hotkey for her
+v.htm - rdsgn&add unit in hlp
+scooters.gif - optimize & rnmd>s.gif
+1.gif - optimize
+2.js, c.htc, e.htc - optimize menu for IE5 (chng cnstnt m, mu(), ff() & so on)
+map.htm - fix som bugs & optimize
+a.htm, x.htm, o.htm in v - unused
+2.js & v.htm - chng <ifram> > <img> (& corresponding code)
+a.css - chng class vv&vo
+v.htm - dlt wdth&hght of class vv, dlt cellpadding
+a.css - add .tb3 td
+a.css&2.js&e.htc - chng for view visited scooters (<p> > <a>)
+favicon.ico - add it in all catalogs
+6.gif - unused
+...many change...
+
+3.01
+index.htm (ie) - add preload c.htc & some image
+3.js - crrct mistake in hlp
+0.js - fix error for IE5 (image don't resize && window crct resize)
+s.gif (ie) - chng
+3.js - anchor to home are fix
+0.js (pr) - add choice JScript vrsn for title page
+index.htm (ie) & 0.js - add choise Pure vrsn
+
+3.02
+0.js (ie) - fix bug for ie>5
+0.js&3.js (ie) - fix fnctn oe and some add
+index.htm (ie) - legend opacity&background
+p.htm - chng dsgn buttons
+
+3.03
+0.js (ie) - add support hot search for RU(UK) ie if on RU(UK) lngg
+
+3.04
+0.js (ie) - add price for scooters
+0.js (ie) - fix bug for 5<IE<5.5
+*.* (h, y, s) - add price for scooters
+c.htc - rdsn for understand there is occure error
+index.htm (ie) - fix possible error
+
+3.05
+3.js - crrct mstk, chng price, add load price, chng spare parts
+0.js (ie) - remove w.status
+33.htm, 41.htm (ie/h, pr/h) - chng price
+price.zip - add this file
+m.htm - add load price
+c.htm, o.htm, x.htm - add indent
+z.htm - chng spare parts
+a.htm - chng text & add indent
+a.css (ie) - chng rule for s'parts
+
+3.06
+index.htm (ie) - chng words Pure version, Price, AccessorY, chng spare parts
+3.js - rdsgn navigation for menu, chng visibility tel
+0.js (ie) - chng visibility tel
+*.htm (pr) - chng visibility tel
+z.htm - chng spare parts
+
+3.07
+0.js (ie) - click ESC rdsgn, fix position menu for toglle page (fnctn sc), fix disappear/appear scrollbars (fnctn wr), add fnctn (aa) & some code for music, onerror some chng
+a.css (ie) - add rule in tb3 for check box move to back (z-index), rule for a.i (cursor), add .bh
+index.htm (ie) - add music check box & bgsound's tag, chng chckbx, rdsgn help
+m.mid - add file
+d.htc - fix BUG (m to i)
