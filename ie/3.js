@@ -19,7 +19,7 @@ for(i=0;i<k;i++){m='<d'+(i%2?'d':'t')+' onmouseout="md('+i+')" onmouseover="md('
 t+=m+'f>'+n[parseInt(a[i])];c=a[i+k];s+=m+'s>'+(c.charAt(0)=='*'?p[parseInt(c.charAt(1))]:c)}
 t+='<td align=center width=112>'+s+g+'</td><td><table class=t2 width=355><tr><td class=td1 height=16><span style=height:20;filter:dropShadow(color=#a0000000,offy=1,offx=1);letter-spacing:-3>'
 m=d.title;s=m.lastIndexOf("'");if(s!=-1&&m.charAt(s-1)==' ')m=m.substr(0,s-1)
-t+=m+'<span></td></tr><tr class=td1><td id=ti style=position:relative class=td1 height=250><img src=../../i'+y.toUpperCase()+'/'+u+'.jpg>'+g+'<div style=height:34;filter:dropShadow(offy=3,offx=4,color=gray)>'
+t+=m+'<span></td></tr><tr class=td1><td id=ti style=position:relative class=td1 height=250><img src=../../i'+y.toLowerCase()+'/'+u+'.jpg>'+g+'<div style=height:34;filter:dropShadow(offy=3,offx=4,color=gray)>'
 b=new Array('All_scooters_in_this_category>*',y=='y'?'Honda>H':'Yamaha>Y','Begin><<','Prev_scooter><','Close>X','Next_scooter>>','End>>>',y=='s'?'Honda>H':'Suzuki>S')
 for(i=0;i<b.length;i++)t+='<button hidefocus onmouseover="fs(this)" onclick="bt('+i+')" accesskey='+b[i].charAt(0)+' title='+b[i]+'</button>'
 t+='</div>'

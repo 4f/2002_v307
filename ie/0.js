@@ -33,7 +33,7 @@ a[i]+='<dt>'+ss[i][k]}b[i]=ss[i][0]}sr(0)
 bo=bo0+mt+bo1
 for(i=1;i<ln2+1;i++)bo+='<dt class=dtb title="Упорядочивание моделей по данной категории" id=ii'+i+">"+g1[i-1]+":"
 bo+=bo2+mt+'l'+bo3+'<img id=mic src='+mt+'.gif>'
-for(i=0;i<ln1;i++)bo+='<img style=display:none id=mi'+i+' src=../i'+fl1.toUpperCase()+'/'+i+'.gif>'
+for(i=0;i<ln1;i++)bo+='<img style=display:none id=mi'+i+' src=../i'+fl1.toLowerCase()+'/'+i+'.gif>'
 q1.innerHTML=bo+bo4;tt1.cells[2].innerHTML=a[ln1];l5(nn,1,0,ln1/2);l5(nn,2,Math.ceil(ln1/2),ln1);a3();st('ss').posRight+=b1.style.overflow==''?0:scb}k='m'}b1.scrollTop=0;op(k+k)}
 function sr(i){for(n=0;n<ln1;n++){ss[n][ln2+1]=0
 for(j=0;j<ln1;j++)ss[n][ln2+1]+=(ss[n][i]>ss[j][i]?1:0)+(ss[n][i]==ss[j][i]?(b[j]<b[n]?1:0):0)}
