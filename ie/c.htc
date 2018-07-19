@@ -1,3 +1,5 @@
+<?php header( 'text/x-component' ) ; ?>
+
 <PUBLIC:COMPONENT>
 
 <PUBLIC:attach event="onmouseover" onevent="f1()" />
