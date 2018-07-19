@@ -11,7 +11,7 @@ if(i!=n){n=i;f()}}
 function f(){if(ch.checked){for(i=0;i<tm.length;i++)for(k=i+1;k<tm.length;k++)if(tm[tn[i]]>tm[tn[k]]){j=tn[i];tn[i]=tn[k];tn[k]=j}}else{for(i=0;i<tm.length;i++)tn[i]=i}
 t='<img src=../../ie/'+(y=='h'?'honda':y=='y'?'yamaha':'suzuki')+'.gif border=1><table border=1>'
 for(i=0;i<tm.length;i++)
-t+=(i%n==0?'<tr border=1 style=text-align:center;vertical-align:bottom;background:#ededed>':'')+'<td width=86 height=100><a accesskey='+tm[tn[i]].charAt(0)+' onclick="open(\''+tn[i]+".htm','"+i+"','scrollbars=1,resizable=1');return false;\" title='"+tm[tn[i]]+"' href="+tn[i]+'.htm hidefocus><img border=0 src=../../i'+y.toUpperCase()+'/'+tn[i]+'.gif><br><u>'+tm[tn[i]].charAt(0)+'</u>'+tm[tn[i]].substr(1)+'</a></td>'+(i%n==n-1?'</tr>':'')
+t+=(i%n==0?'<tr border=1 style=text-align:center;vertical-align:bottom;background:#ededed>':'')+'<td width=86 height=100><a accesskey='+tm[tn[i]].charAt(0)+' onclick="open(\''+tn[i]+".htm','"+i+"','scrollbars=1,resizable=1');return false;\" title='"+tm[tn[i]]+"' href="+tn[i]+'.htm hidefocus><img border=0 src=../../i'+y.toLowerCase()+'/'+tn[i]+'.gif><br><u>'+tm[tn[i]].charAt(0)+'</u>'+tm[tn[i]].substr(1)+'</a></td>'+(i%n==n-1?'</tr>':'')
 for(k=i;k<i+n-i%n;k++)
 t+=(k%n==0?'<tr border=1>':'')+'<td style=text-align:center;vertical-align:middle;height:96><a title=HOME href=../ hidefocus><img border=0 src=../../i/l1.gif></a></td>'+(k%5==n-1?'</tr>':'')
 t+='</table>'
