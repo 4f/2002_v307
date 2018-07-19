@@ -3,7 +3,7 @@ body{margin:0;background:#dfdfdf;color:#000;SCROLLBAR-FACE-COLOR:#dfdfdf;SCROLLB
 a,a:visited{text-decoration:none;color:#00c}
 a:active{color:#33f}
 a:hover{text-decoration:underline;color:#00f}
-a.i,a.i:visited,a.o,a.o:visited{cursor:hand;position:relative;color:#001;font:800 19/1.3;background:#eef;behavior:url(/ie/e.htc);text-align:center;margin:2;display:block;border:4 outset;letter-spacing:-1}
+a.i,a.i:visited,a.o,a.o:visited{cursor:hand;position:relative;color:#001;font:800 19/1.3;background:#eef;behavior:url(/ie/e.htc.php);text-align:center;margin:2;display:block;border:4 outset;letter-spacing:-1}
 a.i:hover,a.i:active,a.o:hover,a.o:active{text-decoration:none;color:#fff;background:#77a;border:4 ridge}
 a.i:active,a.o:active{color:#fff;background:#000;border:4 groove}
 a.o,a.o:visited{position:relative;left=5;top=2;border:4 inset}
@@ -12,9 +12,9 @@ dd{padding:0;margin:0}
 .td1,.tb3 td td{background:#EFEFEF;border:1 solid;border-color:#fff #000 #000 #fff}
 .t2{text-align:center;background:#c0c0c0;font-weight:900;border:1 solid #000;border-width:0 1 1 0}
 dt{font-size:11;border-bottom:1 solid #fff;padding:0;margin:0}
-.dtb,.dt1{cursor:hand;behavior:url(/ie/d.htc)}
+.dtb,.dt1{cursor:hand;behavior:url(/ie/d.htc.php)}
 .dt1{color:#555}
-#tt3 a{display:block;text-decoration:none;color:#000;background:#eee;behavior:url(/ie/c.htc);height:16;width:140;padding:0;text-align:center;margin:4 5 4 5;font:400 11 verdana;border:1 outset}
+#tt3 a{display:block;text-decoration:none;color:#000;background:#eee;behavior:url(/ie/c.htc.php);height:16;width:140;padding:0;text-align:center;margin:4 5 4 5;font:400 11 verdana;border:1 outset}
 #tt3 a.v,#tt3 a:visited{color:#444;border:1 inset}
 #tt3 a:visited{v:1}
 #tt3 a.p,#tt3 a.p:visited{background:#ccc;text-indent:-3;color:red}
