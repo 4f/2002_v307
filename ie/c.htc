@@ -1,3 +1,5 @@
+<?php header('Content-type: text/x-component'); ?>
+
 <attach event="onmouseover" onevent="f1()" />
 <attach event="onclick" onevent="f2()" />
 <attach event="onfocus" onevent="ff()" />
