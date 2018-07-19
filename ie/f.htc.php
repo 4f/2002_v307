@@ -1,4 +1,4 @@
-<?php header( 'text/x-component' ) ; ?>
+<?php header( 'Content-Type: text/x-component' ) ; ?>
 <PUBLIC:COMPONENT>
 
 <PUBLIC:attach event="onmouseout" onevent="f1(0)" />
