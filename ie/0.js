@@ -30,7 +30,7 @@ ln1=a.length;a4=Math.round(ln1/2);g1=gg.split(':');ln2=g1.length
 for(i=0;i<ln1+1;i++){a[ln1]+='-;';ss[i]=new Array;ss[i]=a[i].split(';');a[i]=''
 for(k=1;k<ln2+1;k++){if(ss[i][k]=='')ss[i][k]='na'
 a[i]+='<dt>'+ss[i][k]}b[i]=ss[i][0]}sr(0)
-bo=bo0+mt+bo1
+bo=bo0+mt.toUpperCase()+bo1
 for(i=1;i<ln2+1;i++)bo+='<dt class=dtb title="Упорядочивание моделей по данной категории" id=ii'+i+">"+g1[i-1]+":"
 bo+=bo2+mt+'l'+bo3+'<img id=mic src='+mt+'.gif>'
 for(i=0;i<ln1;i++)bo+='<img style=display:none id=mi'+i+' src=../i'+fl1.toLowerCase()+'/'+i+'.gif>'
