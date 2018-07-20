@@ -17,7 +17,7 @@ className="p"
 yl=this
 nl=s
 op('mi'+s)
-sp.innerText=mt+'  '+b[s]
+sp.innerText=mt.toUpperCase()+'  '+b[s]
 tt2.innerText=b[s]
 tt1.cells[2].innerHTML=a[s]}
 function f2(){if(nl>-1){className='v'
